@@ -1,0 +1,101 @@
+body {
+    background-color: #12041d;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.headline {
+    font-size: 17px;
+    color: #ddd5d5;
+    margin-right: 15px;
+    top: 20px;
+}
+
+#pic2 {
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.search-button {
+    position: absolute;
+    top: 15px;
+    right: 250px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #d8c8c8;
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.652);
+    width: 300px;
+}
+
+.user-buttons {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+
+.sign-in-button, .sign-up-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.sign-up-button {
+    border: 1px solid #bfd2df;
+    border-radius: 4px;
+    color: #becad2;
+}
+
+.center-text .larger-text {
+    text-align: center;
+    font-size: 4em;
+    color: #e4e2e2;
+    margin-bottom: 10px; 
+}
+.center-text p {
+    text-align: center;
+    font-size: 2.5em;
+    
+    color: #c7c6c6;
+    margin-bottom: 10px; 
+}
+
+.center-text button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.email-button {
+    border: 1px solid #bfd2df;
+    color: #becad2;
+}
+
+.signup-github-button {
+    background-color: #2ea44f;
+    color: #fff;
+}
+
+.trial-button {
+    border: 1px solid #2ea44f;
+    color: #2ea44f;
+}
