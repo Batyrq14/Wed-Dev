@@ -31,7 +31,7 @@ input[type="text"],input[type="password"]{
     border-radius: 5px;
     text-align: center;
     color:black;
-    font-family: 'Segoe UI';
+    font-family: 'Arial';
     font-size: 15px;
 }
 
@@ -54,7 +54,7 @@ button{
     margin: auto;
     color: #1877f2;
     padding-left: 80px;
-    font-family: "Segoe UI";
+    font-family: "Arial";
     font-weight: 400;
 }
 
@@ -72,7 +72,7 @@ button{
     width: 270px;
     position: relative;
     color: black;
-    font-family: 'Segoe UI', Arial;
+    font-family: 'Arial', Arial;
     padding: 130px 890px;
     font-size: 12px;
     font-weight: 600;
@@ -88,7 +88,7 @@ button{
     width: 350px;
     margin-left: 300px;
     margin-top: 30vh;
-    font-family: "Segoe UI", Roboto, "San Francisco";
+    font-family: "Arial", Roboto, "San Francisco";
 }
 
 .f-container img{
