@@ -1,0 +1,159 @@
+body {
+    background-color: #12041d;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.headline {
+    font-size: 17px;
+    color: #ddd5d5;
+    margin-right: 50px;
+    top: 20px; /* Adjust this value to align with the image */
+    position: absolute; /* Position the headlines absolutely */
+}
+
+#pic2 {
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* Adjust positions of each headline */
+.headline:nth-child(1) {
+    left: 100px; /* Adjust as needed */
+}
+
+.headline:nth-child(2) {
+    left: 200px; /* Adjust as needed */
+}
+
+.headline:nth-child(3) {
+    left: 320px; /* Adjust as needed */
+}
+
+.headline:nth-child(4) {
+    left: 430px; /* Adjust as needed */
+}
+
+
+.search-button {
+    position: absolute;
+    top: 15px;
+    right: 250px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #d8c8c8;
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.652);
+    width: 300px;
+}
+
+.user-buttons {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+
+.sign-in-button, .sign-up-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.sign-up-button {
+    border: 1px solid #bfd2df;
+    border-radius: 4px;
+    color: #becad2;
+}
+
+.welcome-text {
+    position: relative;
+    left: 290px;
+    top:50px;
+}
+
+.welcome-buttons {
+    text-align: center;
+    text-align: left; /* Align buttons to center */
+    margin-top: 90px;
+    margin-left: 290px; /* Add some space between welcome-text and welcome-buttons */
+    font-size: 20px;
+}
+
+.welcome-buttons button {
+    padding: 15px 30px; /* Increase padding for larger buttons */
+    font-size: 16px; /* Increase font size for larger buttons */
+}
+
+.world {
+    position: absolute;
+    text-align: center; /* Center align the text */
+    margin-top: 90px;
+    margin-left: 290px; /* Adjust margin as needed */
+    color: #bdb8b8; /* Adjust text color */
+}
+.belgi{
+    background-color: rgb(52, 52, 212);
+    color:white;
+}
+
+.trust {
+    font-size: 20px; /* Adjust font size */
+}
+
+
+.trusted-companies {
+    text-align: center;
+    margin-top: 150px;
+    margin-left:150px;
+    
+}
+.company {
+    padding: 20px;
+    margin: 0 10px; /* Add margin to each side of the images */
+}
+
+
+
+.welcome-text .larger-text {
+    font-size: 4em;
+    color: #e4e2e2;
+    margin-bottom: 10px; 
+}
+
+.welcome-text p {
+    font-size: 2.5em;
+    color: #c7c6c6;
+    margin-bottom: 10px; 
+}
+
+
+
+.email-button {
+    border: 1px solid #bfd2df;
+    color: #becad2;
+}
+
+.signup-github-button {
+    background-color:rgba(221, 15, 211, 0.652);
+    color: #fff;
+}
+
+.trial-button {
+    background-color: transparent;
+    border: 1px solid #6630b7;
+    color: #cdc3d8;
+    left:50px;
+}
