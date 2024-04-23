@@ -1,0 +1,50 @@
+/* company-details.component.css */
+
+.company-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .vacancies-list {
+    margin-top: 20px;
+  }
+  
+  .vacancy-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .company-details-container {
+      padding: 10px;
+    }
+  }
+  

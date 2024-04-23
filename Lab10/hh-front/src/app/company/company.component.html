@@ -1,8 +1,21 @@
-<h1>About this company:</h1>
-<h2>Name: {{company.name}}</h2>
-<h2>Description: {{company.description}}</h2>
-<h2>Location: {{company.city}}, {{company.address}}</h2>
+<!-- company-details.component.html -->
 
-<div *ngFor="let v of vacancies">
-    <app-vacancy [vacancy]="v"></app-vacancy>
-</div>
+<div class="company-details-container">
+    <h1>About this company:</h1>
+  
+    <div class="company-details">
+      <h2>Name: {{ company.name }}</h2>
+      <h3>Description:</h3>
+      <p>{{ company.description }}</p>
+      <h3>Location:</h3>
+      <p>{{ company.city }}, {{ company.address }}</p>
+    </div>
+  
+    <div class="vacancies-list">
+      <h2>Current Vacancies:</h2>
+      <div *ngFor="let v of vacancies" class="vacancy-item">
+        <app-vacancy [vacancy]="v"></app-vacancy>
+      </div>
+    </div>
+  </div>
+  

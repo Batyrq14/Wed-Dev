@@ -1,0 +1,45 @@
+/* company-list.component.css */
+
+.company-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .company-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .company-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .company-item p {
+    margin: 0;
+  }
+  
+  .company-id {
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .company-name {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .company-name:hover {
+    text-decoration: underline;
+  }
+  

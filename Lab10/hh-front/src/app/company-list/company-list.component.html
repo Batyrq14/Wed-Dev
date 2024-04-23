@@ -1,5 +1,15 @@
-<h1>Companies</h1>
+<!-- company-list.component.html -->
 
-<div *ngFor="let c of companies">
-    <p>{{c.id}} <a [routerLink]="['/companies', c.id]">{{c.name}}</a></p>
-</div>
+<div class="company-list-container">
+    <h1>Companies</h1>
+  
+    <div class="company-list">
+      <div *ngFor="let c of companies" class="company-item">
+        <p>
+          <span class="company-id">{{ c.id }}</span>
+          <a [routerLink]="['/companies', c.id]" class="company-name">{{ c.name }}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  

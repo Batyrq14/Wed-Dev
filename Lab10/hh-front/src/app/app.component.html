@@ -1,8 +1,12 @@
+<!-- app.component.html -->
+
 <nav>
   <h1><a [routerLink]="['/']">HeadHunter</a></h1>
-  <div><a [routerLink]="['/companies']">Companies</a>
+  <div class="nav-links">
+    <a [routerLink]="['/companies']">Companies</a>
   </div>
-
 </nav>
 
-<div style="width: 600px; margin: auto;"><router-outlet /></div>
+<div class="main-container">
+  <router-outlet></router-outlet>
+</div>
